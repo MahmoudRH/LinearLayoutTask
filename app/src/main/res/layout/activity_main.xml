@@ -7,5 +7,119 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginMedium"
+        android:background="@drawable/shape_rounded_item"
+        android:paddingVertical="@dimen/paddingNormal"
+        android:paddingStart="@dimen/paddingNormal"
+        android:paddingEnd="@dimen/paddingSmall">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/person"
+            app:shapeAppearanceOverlay="@style/roundedImage" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/paddingNormal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginExtraSmall"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="@string/ahmed_hassan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textHeading" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="@string/engineer"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/textSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:drawablePadding="@dimen/paddingExtraSmall"
+                android:text="@string/uk"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/textSmall"
+                app:drawableStartCompat="@drawable/ic_location" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/marginSmall"
+                    android:text="@string/_150_reviews"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/paddingExtraSmall"
+                    android:text="@string/_4_5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSmall"
+                    app:drawableEndCompat="@drawable/ic_star" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_time"
+                android:paddingHorizontal="@dimen/paddingSmall"
+                android:paddingVertical="@dimen/paddingExtraSmall"
+                android:text="@string/_3_hr"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="@string/russian"
+                android:textColor="@color/darkBlue"
+                android:textSize="@dimen/textSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:drawablePadding="@dimen/paddingExtraSmall"
+                android:text="@string/_5_days_ago"
+                android:textColor="@color/lightGray"
+                android:textSize="@dimen/textSmall" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
