@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radiusSmall">8dp</dimen>
+    <dimen name="radiusMedium">16dp</dimen>
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="textHeading">16sp</dimen>
+    <dimen name="marginExtraSmall">2dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginMedium">16dp</dimen>
+    <dimen name="paddingExtraSmall">4dp</dimen>
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="paddingNormal">12dp</dimen>
+</resources>
